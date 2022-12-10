@@ -1,0 +1,39 @@
+.form-container{
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.form-container > input{
+    margin-top: 5px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.btn{
+    font-weight: bold;
+    height: 2em;
+    width: 6em;
+    padding: 1px ;
+    margin-top: 5px;
+    border: 1px solid rgb(79, 104, 42);
+    color: rgb(51, 169, 169);
+    border-radius: 5px;
+    border-color: rgb(60, 203, 203);
+    border-width: 2px;
+}
+.btn:hover{
+    border-color: rgb(115, 230, 230);
+}
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 5px;
+    border: 1px solid rgb(202, 171, 113);
+    border-radius: 5px;
+}
